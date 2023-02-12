@@ -1,6 +1,6 @@
 # Frontend Mentor - Notifications page
 
-##live page : https://teo2823.github.io/notifications-page-main/
+## live page : https://teo2823.github.io/notifications-page-main/
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
