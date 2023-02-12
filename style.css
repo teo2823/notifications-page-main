@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 20px 15px;
+}
+
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+/*HEADER CSS STYLES*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header h4 {
+    font-weight: 800;
+    color: rgb(25, 26, 25);
+    word-spacing: 10px;
+}
+header span {
+    color: white;
+    padding: 1px 10px;
+    border-radius: 5px;
+    background-color: rgb(28, 38, 148);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header h6 {
+    color:  #7a7878;
+    font-size: 0.7em;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+header h6:hover{
+    color: rgb(28, 38, 148);
+}
+
+/*CONTENT NOTIFICATIONS STYLES*/ 
+
+.content-notifications {
+    display: grid;
+    padding: 0px 12px;
+}
+
+.image-notification img {
+    width: 40px;
+}
+
+.image-notification {
+    width: 40px;
+}
+
+.notification{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.notification p {
+    font-size: 0.8em;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #6e6d6d;
+}
+
+.info-noti h6 {
+    font-weight: 400;
+    color: #302e2e;
+}
+
+span.name {
+    font-size: 1.em;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #302e2e;
+    transition: 200ms ease-in-out;
+}
+span.name:hover {
+    color: rgb(12, 16, 66);
+}
+
+.notification:nth-child(4){
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(211, 208, 208);
+}
+.notification:nth-child(6){
+
+    justify-content: space-between;
+}
+
+.comment {
+    display: flex;
+    gap: 15px;
+}
+
+.image-comment img {
+    width: 40px;
+}
+
+.message-private {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    margin-bottom: 30px;
+}
+
+.message-private:hover{
+    background-color: rgb(206, 227, 248);
+}
+.message-private p {
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #424141;
+    width: 75%;
+}
+span.chessclub {
+    color: rgb(28, 38, 148);
+    font-weight: 800;
+    margin-left: 3px;
+}
+span.chessclub:hover{
+    color: #29177e;
+}
+span.wordsgrey {
+    color: #1d1d1d;
+}
+
+span.circle{
+    font-size: 0.2em;
+    
+    margin-left: 10px;
+    color: rgb(241, 94, 94);
+    background-color: rgb(241, 94, 94);
+    border-radius: 100%;
+    
+}
