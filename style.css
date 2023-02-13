@@ -53,6 +53,7 @@ header h6:hover{
 .content-notifications {
     display: grid;
     padding: 0px 12px;
+    gap: 10px;
 }
 
 .image-notification img {
@@ -68,7 +69,7 @@ header h6:hover{
     align-items: center;
     gap: 15px;
     cursor: pointer;
-    margin-bottom: 30px;
+    padding: 10px 10px 20px;
 }
 
 .notification p {
@@ -92,6 +93,11 @@ span.name {
 }
 span.name:hover {
     color: rgb(12, 16, 66);
+}
+
+.notification:nth-child(1), .notification:nth-child(2), .notification:nth-child(3){
+    background-color: rgb(206, 227, 248);
+    transition: 700ms ease-in-out;
 }
 
 .notification:nth-child(4){
@@ -144,7 +150,7 @@ span.wordsgrey {
     color: #1d1d1d;
 }
 
-span.circle{
+.circle{
     font-size: 0.2em;
     
     margin-left: 10px;
